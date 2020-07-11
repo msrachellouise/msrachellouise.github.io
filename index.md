@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tiny Search Thing</title>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="js/gtm.js"></script> If you use Google Tag Manager, uncomment this line-->
+<link rel="stylesheet" href="custom2.css">
+<!-- <script type="text/javascript" src="js/options.js"></script> -->
+</head>
+<body>
+<h2>Rachel's tiny search thingy</h2>
+
+<!-- <script async src="js/scripttest.js"></script> -->
+
+
+  <div id="search-box">
+<script  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+(function() {
+var cx = "010391021890985609619:txywclsdsx4";
+var gcse = document.createElement("script");
+gcse.type = "text/javascript";
+gcse.async = true;
+gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+window.onload = function()
+{
+var searchBox =  document.getElementById("gsc-i-id1");
+searchBox.placeholder="alma troubleshooting";
+searchBox.title="Search Primo and Alma community documentation";
+}
+</script>
+     <gcse:search></gcse:search>
+  </div>
+</body>
+</html>
